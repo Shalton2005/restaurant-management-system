@@ -84,6 +84,13 @@ If folder name differs, update URL accordingly.
 - No real customer identities, phone numbers, or payment identifiers are used.
 - Do not commit production credentials, `.env` secrets, or DB dumps with personal data.
 
+## Design credits and reference note
+
+- Project design and implementation: Shalton2005
+- The database structure and layout were adapted from publicly available open-source academic DBMS reference patterns.
+- This repository is an original implementation built for educational use and is not affiliated with any external reference source.
+- If you reuse any part of the design, keep proper attribution and verify licensing for the specific source you consulted.
+
 ## Repository structure
 
 - `restaurant.sql` - complete schema, seed data, trigger, indexes, and reporting view

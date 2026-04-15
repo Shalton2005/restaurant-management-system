@@ -1,5 +1,7 @@
 # Entity Relationship Diagram
 
+Design note: this ER diagram was adapted and cleaned up from open-source academic DBMS reference patterns and then aligned to the current project schema by Shalton2005.
+
 ```mermaid
 erDiagram
     RESTAURANT ||--o{ CUSTOMER : hosts

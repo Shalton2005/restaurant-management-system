@@ -1,5 +1,7 @@
 # Apache/XAMPP Setup Guide
 
+This guide supports the completed restaurant management system release.
+
 ## Prerequisites
 
 - XAMPP installed (Apache + MySQL)
@@ -30,3 +32,9 @@ http://localhost/Restaurant%20Management%20System/public/index.php
 - DB connection error: verify DB credentials in `.env`
 - Table/view missing: execute `restaurant.sql` again
 - 404 in browser: verify project folder name in URL and Apache is running
+
+## Related docs
+
+- [Architecture overview](docs/ARCHITECTURE.md)
+- [ERD](docs/ERD.md)
+- [Deployment guide](docs/DEPLOYMENT.md)

@@ -1,8 +1,10 @@
 # Restaurant Management System (DBMS)
 
-Production-ready baseline for a Restaurant Management System using MySQL 8+.
+Completed Restaurant Management System using MySQL 8+ and PHP 8+.
 
 This repository now includes a PHP + Apache compatible web application layer.
+
+Project status: complete.
 
 ## What is included
 
@@ -96,17 +98,14 @@ If folder name differs, update URL accordingly.
 - `src/` - app configuration, pages, and form actions
 - `CONTRIBUTING.md` - contribution and commit conventions
 - `CHANGELOG.md` - release notes by version
+- `docs/ARCHITECTURE.md` - system architecture overview
+- `docs/ERD.md` - entity relationship diagram in Mermaid
+- `docs/DEPLOYMENT.md` - deployment and verification guide
 
-## Professional upgrades from initial mini-project version
+## Project highlights
 
 - Removed any local-host deployment URLs from code artifacts
 - Upgraded naming and constraints for cleaner data governance
 - Added idempotent object recreation (`DROP IF EXISTS`) for repeatable setup
 - Added full bill-total synchronization logic for INSERT, UPDATE, and DELETE on `food_item`
 - Added QA validation queries to demonstrate consistency during evaluation
-
-## Suggested next production steps
-
-1. Add a backend API (Node.js/Java/Python) with ORM migration support.
-2. Add CI for schema validation and SQL formatting checks.
-3. Add backup/restore automation and role-based DB access.

@@ -2,6 +2,18 @@
 
 All notable changes to this project are documented in this file.
 
+## [1.0.0] - 2026-04-15
+
+### Added
+
+- Final architecture, ERD, and deployment documentation.
+- Completed project presentation as a single production-ready release.
+
+### Changed
+
+- Unified the repository into a finished project view without planning labels.
+- Refined README content to describe the final application state.
+
 ## [0.2.0] - 2026-04-14
 
 ### Added
